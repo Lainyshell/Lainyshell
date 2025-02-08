@@ -11,3 +11,68 @@
     }
   ],
 }
+{
+  "id": "tu_1Qq8qxGP3x5z5MHDbiABedc3",
+  "object": "topup",
+  "amount": 249000,
+  "balance_transaction": "txn_1Qq90eGP3x5z5MHDM7edRDNl",
+  "created": 1739001207,
+  "currency": "usd",
+  "description": "",
+  "destination_balance": "issuing",
+  "expected_availability_date": 1739001208,
+  "failure_code": null,
+  "failure_message": null,
+  "livemode": false,
+  "metadata": {},
+  "source": {
+    "id": "src_1Qq8qxGP3x5z5MHDXHSPfsnm",
+    "object": "source",
+    "ach_debit": {
+      "bank_name": "STRIPE TEST BANK",
+      "country": "US",
+      "fingerprint": "pMIm5mRW9tC8YsEF",
+      "last4": "6789",
+      "routing_number": "110000000",
+      "type": "individual"
+    },
+    "allow_redisplay": "unspecified",
+    "amount": null,
+    "client_secret": "src_client_secret_HI5iYMzIjAek2vzB4Hfpf5mG",
+    "code_verification": {
+      "attempts_remaining": 3,
+      "status": "succeeded"
+    },
+    "created": 1739001207,
+    "currency": "usd",
+    "flow": "code_verification",
+    "livemode": false,
+    "metadata": {},
+    "owner": {
+      "address": {
+        "city": null,
+        "country": "US",
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+      },
+      "email": null,
+      "name": "Jenny Rosen",
+      "phone": null,
+      "verified_address": null,
+      "verified_email": null,
+      "verified_name": null,
+      "verified_phone": null
+    },
+    "owning_merchant": "acct_1QpiFnGP3x5z5MHD",
+    "owning_merchant_info": "acct_1QpiFnGP3x5z5MHD",
+    "statement_descriptor": null,
+    "status": "chargeable",
+    "type": "ach_debit",
+    "usage": "reusable"
+  },
+  "statement_descriptor": null,
+  "status": "succeeded",
+  "transfer_group": null
+}
